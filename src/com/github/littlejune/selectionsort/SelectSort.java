@@ -32,6 +32,7 @@ public class SelectSort {
                     min = j; // 修改最小元素
                 }
             }
+
             ArrayUtils.exchange(arr, i, min);// 元素交换
         }
     }
