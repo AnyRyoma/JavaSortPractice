@@ -12,6 +12,14 @@ import com.github.littlejune.utils.ArrayUtils;
 public class BubbleSort {
 
     public static void bubbleSort(int[] arr) {
+
+        /**
+         * 参数检查
+         */
+        if (arr.length <= 1) {
+            return;
+        }
+
         for (int i = 0; i < arr.length; i++) { //排序的趟数
             for (int j = arr.length - 1; j > i; j--) {
                 if (arr[j - 1] > arr[j]) {

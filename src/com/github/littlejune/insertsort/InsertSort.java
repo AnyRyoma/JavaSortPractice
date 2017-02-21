@@ -20,6 +20,13 @@ public class InsertSort {
      */
     public static void insertSort(int[] arr) {
 
+        /**
+         * 参数检查
+         */
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+
         int position;
         int currentValue;
         for (int i = 1; i < arr.length; i++) {
