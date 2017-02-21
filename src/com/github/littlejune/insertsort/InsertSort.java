@@ -4,6 +4,12 @@ import com.github.littlejune.utils.ArrayUtils;
 
 /**
  * Created by Littlejune on 2017/2/21.
+ *
+ * 插入排序：
+ * 把当前待排序的元素插入到一个已经排好序的列表里
+ * 稳定排序算法
+ * 时间复杂度:O(n^2)
+ *
  */
 public class InsertSort {
 
