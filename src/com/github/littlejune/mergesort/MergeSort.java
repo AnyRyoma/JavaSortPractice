@@ -5,6 +5,8 @@ import com.github.littlejune.utils.ArrayUtils;
 /**
  * Created by Littlejune on 2017/2/21.
  * 归并排序
+ * 稳定的排序算法
+ * 时间复杂度：O(nlogn)
  */
 public class MergeSort {
 
